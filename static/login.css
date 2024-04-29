@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.josefin-sans-light {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+.josefin-sans-regular {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+}
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.loginheader{
+    text-align: center;
+    padding-top: 8%;
+}
+
+.logindetails {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+.logindetails label {
+    font-weight: bold;
+    padding: 8px;
+}
+
+.logindetails input {
+    padding: 5px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.login {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.login button {
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    background-color: lightblue;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login button:hover {
+    background-color: skyblue;
+}
+
+.noAccountYet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noAccountYet p {
+    font-weight: bold;
+}
+
+.noAccountYet a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.noAccountYet a:hover {
+    color: blue;
+}
