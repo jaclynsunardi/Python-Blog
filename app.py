@@ -17,6 +17,10 @@ def signup():
 def login():
     return render_template('login.html')
 
+@app.route('/homepage', methods=["GET", "POST", "PATCH", "PUT"])
+
+def homepage():
+    return render_template('homepage.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
