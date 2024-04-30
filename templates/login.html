@@ -10,6 +10,14 @@
     <div class="loginheader">
         <h1>Login to your Account</h1>
     </div>
+
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username }}
+        {{ form.password }}
+        {{ form.submit }}
+    </form>
+    
     <div class="logindetails">
         <label for="Username">Username:</label>
         <input type="text" id="Username" name="Username">

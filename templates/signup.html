@@ -10,6 +10,14 @@
     <div class="signupheader">
         <h1>Signup For An Account</h1>
     </div>
+
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username }}
+        {{ form.password }}
+        {{ form.submit }}
+    </form>
+    
     <div class="signupdetails">
         <label for="First Name">First Name:</label>
         <input type="text" id="firstName" name="FirstName">
